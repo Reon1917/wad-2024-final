@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import Customer from './models/Customer';
+import Customer from '@/models/Customer';
 import dbConnect from '@/lib/db';
 import mongoose from 'mongoose'; // Ensure mongoose is imported
 
